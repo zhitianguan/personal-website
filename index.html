@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<!--Mobile Friendly-->
+		<title> Zhitian (Hugo) Guan</title>
+		<link rel="shortcut icon" type="image/x-icon" href="">
+		<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+			integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+			crossorigin="anonymous"
+		/>
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="#home" class="home__link">
+					<strong>Hugo Guan</strong>
+				</a>
+							</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+					<li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+					<li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+					<li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<!--Introduction-->
+		<section class="intro" id="home">
+			<div class="introWrapper" >
+				<div class="personalPhoto">
+					<img src="images/face.jpg"  alt="avatar"> 
+				</div>
+				<div class="introText">
+					<p class="helloText">
+						<strong>
+							Hello! I'm Hugo and welcome to my site! </br>
+						</strong>
+						<p class="sectionSubtitle">
+							I am an aspiring computer engineer, I'm experienced with front-end 
+							web development and have a passion for UI/UX design! <br>
+						</p>
+						You can check out some of my work
+						<a href="#projects" class="btn">here</a> 
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<div id="contentContainer">
+			<!--About Me-->
+			<section class="about" id="about">
+				<h1 class="sectionTitle">
+					About Me
+				</h1>
+				<p> 
+					I'm currently completing my bachelor's degree in computer engineering at
+					the University of Toronto. <br>	
+					I enjoy the iterative process of writing code,
+					and the joy of making things, especially those that bring value to others, 
+					is what motivates me.<br>
+					My non-technical hobbies include making origami, biking, and playing/watching basketball (go Raptors!).
+
+				</p>
+			</section>
+
+			<!--Skills-->
+			<section class="skills" id="skills">
+				<h1 class="sectionTitle">
+					Skills
+				</h1>
+				<div id="skills_wrapper">
+						<div id="skillsText">
+							<strong>Languages: </strong>
+							JavaScript, C, C++, HTML5, CSS3, Python, MATLAB<br>
+							<strong>Tools & Technologies: </strong>
+							React.js, Node.js, Git, Linux<br>
+							<strong>Hardware:</strong>
+							Verilog, Ardunio<br>
+							<strong>Media:</strong>
+							Adobe Illustrator, Photoshop, Premiere Pro
+						</div>
+						<div id="skillsLogoWrapper">
+							<img src="images/JavaScript-logo.png" alt="JS">
+							<img src="images/cssLogo.jpeg" alt="CSS">
+							<img src="images/reactLogo.png" alt="React">
+						</div>
+				</div>
+			</section>
+			
+			<!--Education-->
+			<section class="education" id="education">
+				<h1 class="sectionTitle">
+					Education
+				</h1>
+				<p class="sectionSubtitle">University of Toronto - St. George Campus</br>
+				Bachelor of Applied Science, Computer Engineering</p>
+			</section>
+	
+			<!--Projects-->
+			<section class="projects" id="projects">
+				<h1 class="sectionTitle">
+					Projects
+				</h1>
+				<div class="projectsContainer">
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://zhitianguan.github.io/React-Podcast-App/" target="_blank">
+								<img src="images/podcast.png" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">React Podcast App with iTunes API</div>
+							<p class="projectDescription">
+								A podcast application built with ReactJS and the Material-UI framework. 
+								I used the iTunes Search API to fetch the podcast data and react-audio-player 
+								for audio playback. 
+							</p>
+							<div class="projectLinks">
+								<span><a href="https://zhitianguan.github.io/React-Podcast-App/" target="_blank">Go to Site</a></span>
+								<span><a href="https://github.com/zhitianguan/React-Podcast-App" target="_blank">GitHub Repo</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://zhitianguan.github.io/todo-list/" target="_blank">
+								<img src="images/todo.png" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">To Do List</div>
+							<p class="projectDescription">
+								A VanillaJS app I developed to explore UI/UX design. It was really fun getting 
+								into the nitty-gritty of CSS by styling everything from scratch. Feel free 
+								to play around with the app and add your own todos and projects!
+								
+							</p>
+							<div class="projectLinks">
+								<span><a href="https://zhitianguan.github.io/todo-list/" target="_blank">Go to Site</a></span>
+								<span><a href="https://github.com/zhitianguan/todo-list" target="_blank">GitHub Repo</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://hugoztguan.com">
+								<img src="images/personalWebsite.png" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">Personal Website</div>
+							<p class="projectDescription">
+								The website that you are viewing right now! Built from with HTML, CSS, and JavaScript.
+								
+							</p>
+							<div class="projectLinks">
+								<span><a href="https://github.com/zhitianguan/todo-list" target="_blank">GitHub Repo</a></span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			
+		</div>
+
+
+		 <!-- Footer -->
+		 <footer id="footer">
+			<p>
+                Contact Me
+			</p>
+
+            <ul class="social-list">
+				<li class="social-list__item">
+					<a href="mailto:z.guan@mail.utoronto.ca" class="footer__link">
+						<i class="fas fa-envelope"></i>
+					</a>
+				</li>
+
+                <li class="social-list__item">
+					<a class="social-list__link"  target="_blank" href="https://linkedin.com/in/zhitian-guan">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+                <li class="social-list__item">
+					<a class="social-list__link"  target="_blank" href="https://github.com/zhitianguan">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+			</ul>
+			<div class="copyright-text">© 2021 Zhitian Guan. All rights reserved</div>
+        </footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
