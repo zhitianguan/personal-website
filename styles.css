@@ -26,7 +26,7 @@
     --clr-accent: Tomato;
     --fs-h1: 2.5rem;
     --fs-h2: 1rem;
-    --fs-body: 1rem;
+    --fs-body: 0.8rem;
 }
 
 /* General styles */
@@ -388,5 +388,5 @@ i {
 }
 
 .copyright-text {
-    font-size: 12px;
+    font-size: 10px;
 }
