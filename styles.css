@@ -210,7 +210,7 @@ header {
 .hamburger::after { bottom: 6px; }
 
 section.intro {
-    background-color: var(--clr-beige);
+    background-color: var(--clr-blue);
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -343,7 +343,7 @@ section.education {
 }
 
 section.interests {
-    background-color: var(--clr-red);
+    background-color: var(--clr-beige);
     padding-right: 2rem;
     padding-left: 2rem;
 }
