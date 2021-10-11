@@ -312,6 +312,7 @@ section.projects {
 
 .projectDescription {
     font-size: --fs-body;
+    margin-bottom: 25px;
 }
 
 .projectLinks {
@@ -411,4 +412,35 @@ i {
 
 .copyright-text {
     font-size: 10px;
+}
+
+.landingButton {
+    font-family: 'Nunito Sans', sans-serif;
+    background: none;
+	border: none;
+    background-color: white;
+
+    font-size: 15px;
+    padding: 6px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.button{
+    font-family: 'Nunito Sans', sans-serif;
+    background: none;
+	border: none;
+    font-size: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: inherit;
+    color: #2867b2;
+    padding: 2px 10px;
+    border: 1.5px solid white;
+    font-weight: 600;
+}
+.button:hover{
+    border: 1.5px solid #2867b2;
+    cursor: pointer;
 }
